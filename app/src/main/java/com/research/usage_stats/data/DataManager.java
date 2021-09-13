@@ -78,7 +78,7 @@ public class DataManager {
             item.mPackageName = target;
             item.mName = AppUtil.parsePackageName(context.getPackageManager(), target);
 
-            // 缓存
+            
             ClonedEvent prevEndEvent = null;
             long start = 0;
 
@@ -107,7 +107,7 @@ public class DataManager {
                         Log.d("********", "add end " + start);
                     }
                 } else {
-                    // 记录最后一次结束事件
+                   
                     if (prevEndEvent != null && start > 0) {
                         item.mEventTime = prevEndEvent.timeStamp;
                         item.mEventType = prevEndEvent.eventType;
