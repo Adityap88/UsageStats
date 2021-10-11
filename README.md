@@ -1,6 +1,6 @@
 # UsageStats
 ## Features of App ##
-* Tracks Total Phone Usage Time during the day, previous day or previous week
+* Tracks Total Phone Usage Time during the day,week or month
 * Tracks each App timeline during the duration
 * Gets Total Data Used and Data Used by individual App
 * Get Unclock count for each app
